@@ -31,9 +31,6 @@ def upload_file(username, password, filename):
 #    file = {'file':(filename, open(filename,'rb'),'application/epub+zip',{'t_auth_token':auth_token})}
 
 
-#username = urllib.parse.quote("j.schoepp@outlook.com")
-#password = "*qpyRyW1a11NGB75"
-
 if __name__ == "__main__":
     if len(sys.argv) != 4:
        print("usage: hugenload.py username password filename")
