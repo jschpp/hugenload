@@ -1,4 +1,5 @@
 __author__ = 'jschpp'
+__version__ = '0.0.1'
 
 import requests
 import sys
